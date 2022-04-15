@@ -7,11 +7,11 @@ SVM (sklearn.svm.SVC) --- C= 10, kernel= 'rbf'
 KNN (sklearn.neighbors.KNeighborsClassifier) --- n_neighbors=3
 
 
---- For Experimental Data(Static Receiver) ---
+--- For Experimental Data(Static Receiver) ----
 
 Extra Trees(sklearn.ensemble.ExtraTreesClassifier)--- n_estimators=1000, max_features='auto', criterion='gini'
 Random Forest(sklearn.ensemble.RandomForestClassifier)--- n_estimators= 400, min_samples_split= 2, min_samples_leaf= 1, max_features='sqrt'
 Gradient Boosting(sklearn.ensemble.GradientBoostingClassifier) --- loss='deviance', n_estimators=100
 SVM (sklearn.svm.SVC) --- C= 1000, kernel= 'rbf'
-KNN (sklearn.neighbors.KNeighborsClassifier) --- n_neighbors=3
+KNN (sklearn.neighbors.KNeighborsClassifier) --- n_neighbors=3 
 
